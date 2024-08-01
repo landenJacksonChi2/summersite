@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signature Services Unlimited </title>
+  <style>
+    body {
+      background-color: rgb(94, 50, 50);
+      color: white;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!-- <img src="images/logo.png" class="logo">  -->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p></p>
+        <h1>Welcome<span></span><br></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div id="about">
+    <div class="container">
+      <div>
+        <div class="about-col-1">
+          <img src="images/logo.png" alt="About Image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About SSU:</h1>
+          <p>Dedicated to excellence, SSU offers a wide range of essential home services including gardening, plumbing, babysitting, dog sitting, electrical work, barbering, hair styling, and housekeeping. Our mission is to provide reliable, quality service that fosters trust, convenience, and satisfaction for every client.</p>
+          <p>want to start in your neighbor👇🏽👇🏽</p>
+
+          <div class="tab-titles">
+            <a href="skills.html" class="tab-links active-link" onclick="opentab('skills')">Skills</a>
+            <a href="Experience.html" class="tab-links" onclick="opentab('experience')">Experience</a>
+            <a href="education.html" class="tab-links" onclick="opentab('education')">Education</a>
+          </div>
+          <div class="tab-contents active-tab" id="skills"></div>
+          <div class="tab-contents" id="experience"></div>
+          <div class="tab-contents" id="education">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <h2>Barber/Hair Stylist</h2>
+          <p>Welcome to SSU, where we specialize in connecting you with top-tier barbers and hair stylists who excel in their craft. Whether you're seeking a classic haircut, a trendy style, or a complete makeover, SSU ensures you receive exceptional service and expertise. Our skilled professionals are dedicated to creating personalized looks that suit your preferences and enhance your unique style. Experience the convenience and quality of SSU's barber and hairstyling services, designed to leave you looking and feeling your best after every appointment.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Housekeeping</h2>
+          <p>Welcome to SSU, your premier provider of housekeeping services. At SSU, we understand the importance of a clean and organized home environment. Our dedicated team of housekeeping professionals is committed to delivering impeccable service tailored to your specific needs. Whether you require regular cleaning, garden work, electric work, or special cleaning services for events or moving preparations, or even plumbers, SSU ensures your home remains pristine and welcoming. Trust SSU to provide reliable, experienced housekeepers who prioritize attention to detail and customer satisfaction, making your life easier and your home more enjoyable to live in.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <h2>Dog/Baby Sitters</h2>
+          <p>Welcome to SSU, your trusted source for reliable babysitters and dog sitters. At SSU, we understand the importance of finding trustworthy caregivers who provide exceptional care for your loved ones. Whether you need a nurturing babysitter for a night out or a dedicated dog sitter to ensure your pet's well-being while you're away, SSU connects you with vetted professionals who prioritize safety and companionship. Rest assured knowing that our caregivers are experienced, responsible, and committed to meeting your family's needs with care and compassion. Count on SSU for peace of mind and quality service, ensuring your loved ones are in good hands at all times.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <video controls>
+      <source src="/Users/landenjackson/Documents/hgp/project/images/0725.mp4" type="video/mp4">
+      <!-- You can add other formats if needed -->
+    </video>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>Email 1: <a href="mailto:landen.jackson@hgs.hiddengeniusproject.org">landen.jackson@hgs.hiddengeniusproject.org</a></p>
+                <p>Email 2: <a href="mailto:jacksonlanden1213@gmail.com">jacksonlanden1213@gmail.com</a></p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://youtube.com/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="Screenshot 2024-07-31 at 1.00.25 PM.png" download class="btn btn2">Show Services 1</a>
+                <a href="Screenshot 2024-07-31 at 1.00.47 PM.png" download class="btn btn2">Show Services 2</a>
+            </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Landen. Made with by <i class="fa-solid fa-heart"></i> Signature Services Unlimited</p>
+    </div>
+  </div>
+
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+      for (var tablink of tablinks) {
+        tablink.classList.remove('active-link');
+      }
+
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove('active-tab');
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+</body>
+</html>
